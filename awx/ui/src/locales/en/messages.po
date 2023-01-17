@@ -13,6 +13,10 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: routeConfig.js:71
+msgid: "Kogito Workflows"
+mststr "Kogito Workflows"
+
 #: components/Schedule/ScheduleOccurrences/ScheduleOccurrences.js:43
 msgid "(Limited to first 10)"
 msgstr "(Limited to first 10)"
@@ -108,7 +112,7 @@ msgstr "API service/integration key"
 msgid "About"
 msgstr ""
 
-#: routeConfig.js:92
+#: routeConfig.js:97
 #: screens/ActivityStream/ActivityStream.js:179
 #: screens/Credential/Credential.js:74
 #: screens/Credential/Credentials.js:29
@@ -325,7 +329,7 @@ msgstr "Add user permissions"
 msgid "Add workflow template"
 msgstr "Add workflow template"
 
-#: routeConfig.js:113
+#: routeConfig.js:118
 #: screens/ActivityStream/ActivityStream.js:190
 msgid "Administration"
 msgstr ""
@@ -466,7 +470,7 @@ msgid "Application not found."
 msgstr "Application not found."
 
 #: components/Lookup/ApplicationLookup.js:95
-#: routeConfig.js:142
+#: routeConfig.js:147
 #: screens/Application/Applications.js:26
 #: screens/Application/Applications.js:35
 #: screens/Application/ApplicationsList/ApplicationsList.js:113
@@ -1633,7 +1637,7 @@ msgstr "Credential Name"
 msgid "Credential Type"
 msgstr "Credential Type"
 
-#: routeConfig.js:117
+#: routeConfig.js:122
 #: screens/ActivityStream/ActivityStream.js:192
 #: screens/CredentialType/CredentialTypeList/CredentialTypeList.js:118
 #: screens/CredentialType/CredentialTypeList/CredentialTypeList.js:161

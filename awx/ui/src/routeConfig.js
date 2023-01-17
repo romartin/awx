@@ -19,6 +19,7 @@ import Schedules from 'screens/Schedule';
 import Settings from 'screens/Setting';
 import Teams from 'screens/Team';
 import Templates from 'screens/Template';
+import Kogito from 'screens/KogitoWorkflow';
 import TopologyView from 'screens/TopologyView';
 import Users from 'screens/User';
 import WorkflowApprovals from 'screens/WorkflowApproval';
@@ -71,6 +72,11 @@ function getRouteConfig(userProfile = {}) {
           title: <Trans>Templates</Trans>,
           path: '/templates',
           screen: Templates,
+        },
+        {
+          title:<Trans>Kogito Workflows</Trans>,
+          path: '/kogito',
+          screen: Kogito
         },
         {
           title: <Trans>Credentials</Trans>,

@@ -13,6 +13,10 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#: routeConfig.js:71
+msgid: "Kogito Workflows"
+mststr "Kogito Workflows"
+
 #: components/Schedule/ScheduleOccurrences/ScheduleOccurrences.js:43
 msgid "(Limited to first 10)"
 msgstr "(Limited to first 10)"
@@ -106,7 +110,7 @@ msgstr "API service/integration key"
 msgid "About"
 msgstr ""
 
-#: routeConfig.js:92
+#: routeConfig.js:97
 #: screens/ActivityStream/ActivityStream.js:179
 #: screens/Credential/Credential.js:89
 #: screens/Credential/Credentials.js:29
@@ -1696,7 +1700,7 @@ msgstr "Credential Name"
 msgid "Credential Type"
 msgstr "Credential Type"
 
-#: routeConfig.js:117
+#: routeConfig.js:122
 #: screens/ActivityStream/ActivityStream.js:192
 #: screens/CredentialType/CredentialTypeList/CredentialTypeList.js:118
 #: screens/CredentialType/CredentialTypeList/CredentialTypeList.js:161

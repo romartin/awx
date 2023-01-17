@@ -21,6 +21,16 @@ ActionsGrid.displayName = 'ActionsGrid';
 export default function ActionsTd({ children, gridColumns, ...props }) {
   const numActions = children.length || 1;
   const width = numActions * 40;
+
+  const doClone = (child, i) => {
+      const result =  child
+          ? React.cloneElement(child, {
+              column: i + 1,
+          })
+          : null
+
+      return result;
+  }
   return (
     <Td
       css={`
@@ -31,11 +41,7 @@ export default function ActionsTd({ children, gridColumns, ...props }) {
     >
       <ActionsGrid numActions={numActions} gridColumns={gridColumns}>
         {React.Children.map(children, (child, i) =>
-          child
-            ? React.cloneElement(child, {
-                column: i + 1,
-              })
-            : null
+          doClone(child, i)
         )}
       </ActionsGrid>
     </Td>

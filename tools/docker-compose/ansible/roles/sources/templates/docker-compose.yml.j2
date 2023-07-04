@@ -248,6 +248,11 @@ services:
     volumes:
       - 'hashicorp_vault_data:/vault/file'
 {% endif %}
+  data-index:
+    container_name: sw_data_index_1
+    image: quay.io/kiegroup/kogito-data-index-ephemeral:1.40
+    ports:
+      - "8180:8080"
 
 volumes:
   awx_db:
